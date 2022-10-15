@@ -1,0 +1,1 @@
+module.exports.download = require('./lib/download/index.js');
