@@ -1,6 +1,6 @@
 # Vix Api
 
-nofficial Api
+unofficial Api
 
 # Install
 
@@ -10,12 +10,13 @@ npm install vix-api
 # Example
 
 ```shell
-const vix = require('vix-apk');
+const vix = require('vix-api');
 
-vix.download.yttomp3('https://youtu.be/lBpapBz32h0')
-.then(response => {
-  console.log(response)
+vix.YtToMp3('https://youtu.be/lBpapBz32h0')
+.then(result => {
+  console.log(result)
 })
-.catch(error) => {
-};
+.catch(error => {
+  console.log(error)
+});
 ```
