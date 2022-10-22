@@ -7,12 +7,22 @@ unofficial Api
 ```shell
 npm install vix-api
 ```
+# List
+
+```shell
+YtMp3 = ytdlmp3
+YtMp4 = ytdlmp4
+Mediafire = mediafire
+Zippyshare = zippyshare
+```
+
 # Example
 
 ```shell
 const vix = require('vix-api');
+url = 'your link'
 
-vix.YtToMp3('https://youtu.be/lBpapBz32h0')
+vix.ytdlmp3(url)
 .then(result => {
   console.log(result)
 })
