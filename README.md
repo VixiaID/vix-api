@@ -1,6 +1,6 @@
 # Vix Api
 
-unofficial Api
+Unofficial Api
 
 # Install
 
@@ -12,6 +12,7 @@ npm install vix-api
 ```shell
 YtMp3 = ytdlmp3
 YtMp4 = ytdlmp4
+Anonfiles = anonfiles
 Mediafire = mediafire
 Zippyshare = zippyshare
 ```
