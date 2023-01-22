@@ -48,6 +48,7 @@ vix.anonfiles('https://anonfiles.com/oaY3mbTdy8/test_txt')
   }
 }
 ```
+
 <details><summary><b>Bayfiles</b></summary><br>
 #### Input
 ```shell
@@ -72,6 +73,7 @@ vix.bayfiles('https://bayfiles.com/NbDdOaI6y3/BAGAS31_-_Adobe_Photoshop_2023_v24
   }
 }
 ```
+
 <details><summary><b>Hxfile</b></summary><br>
 #### Input
 ```shell
@@ -97,6 +99,7 @@ vix.hxfile('https://hxfile.co/nyoo294su9r2')
   }
 }
 ```
+
 <details><summary><b>Mediafire</b></summary><br>
 #### Input
 ```shell
@@ -122,6 +125,7 @@ vix.mediafire('https://www.mediafire.com/file/5h71b545s6dfiv2')
   }
 }
 ```
+
 <details><summary><b>Racaty</b></summary><br>
 #### Input
 ```shell
@@ -147,6 +151,7 @@ vix.racaty('https://racaty.io/izj0fopl0ih8')
   }
 }
 ```
+
 <details><summary><b>Solidfiles</b></summary><br>
 #### Input
 ```shell
@@ -172,6 +177,7 @@ vix.solidfiles('http://solidfiles.com/v/YqgMXLRZ357k3')
   }
 }
 ```
+
 <details><summary><b>Youtube Mp3</b></summary><br>
 #### Input
 ```shell
@@ -212,6 +218,7 @@ vix.ytmp3('https://youtu.be/BXct4eEqbEg')
   }
 }
 ```
+
 <details><summary><b>Youtube Mp4</b></summary><br>
 #### Input
 ```shell
@@ -252,6 +259,7 @@ vix.ytmp4('https://youtu.be/BXct4eEqbEg')
   }
 }
 ```
+
 <details><summary><b>Zippyshare</b></summary><br>
 #### Input
 ```shell
@@ -277,5 +285,5 @@ vix.zippyshare('https://www94.zippyshare.com/v/PhnBX3dJ/file.html')
 }
 ```
 
-# Issues
+# Isues
 if you get an error or bug you can create an issues or if you want to fix it you can pull requests
