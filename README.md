@@ -26,7 +26,7 @@ const vix = require('vix-api');
 
 <details><summary><b>Anonfiles</b></summary><br>
 #### Input
-```shell
+```js
 vix.anonfiles('https://anonfiles.com/oaY3mbTdy8/test_txt')
 .then(result => {
   console.log(result)
@@ -36,7 +36,7 @@ vix.anonfiles('https://anonfiles.com/oaY3mbTdy8/test_txt')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -51,7 +51,7 @@ vix.anonfiles('https://anonfiles.com/oaY3mbTdy8/test_txt')
 </details>
 <details><summary><b>Bayfiles</b></summary><br>
 #### Input
-```shell
+```js
 vix.bayfiles('https://bayfiles.com/NbDdOaI6y3/BAGAS31_-_Adobe_Photoshop_2023_v24.0.1.112_Full_Version_rar')
 .then(result => {
   console.log(result)
@@ -61,7 +61,7 @@ vix.bayfiles('https://bayfiles.com/NbDdOaI6y3/BAGAS31_-_Adobe_Photoshop_2023_v24
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -76,7 +76,7 @@ vix.bayfiles('https://bayfiles.com/NbDdOaI6y3/BAGAS31_-_Adobe_Photoshop_2023_v24
 </details>
 <details><summary><b>Hxfile</b></summary><br>
 #### Input
-```shell
+```js
 vix.hxfile('https://hxfile.co/nyoo294su9r2')
 .then(result => {
   console.log(result)
@@ -86,7 +86,7 @@ vix.hxfile('https://hxfile.co/nyoo294su9r2')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -102,7 +102,7 @@ vix.hxfile('https://hxfile.co/nyoo294su9r2')
 </details>
 <details><summary><b>Mediafire</b></summary><br>
 #### Input
-```shell
+```js
 vix.mediafire('https://www.mediafire.com/file/5h71b545s6dfiv2')
 .then(result => {
   console.log(result)
@@ -112,7 +112,7 @@ vix.mediafire('https://www.mediafire.com/file/5h71b545s6dfiv2')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -128,7 +128,7 @@ vix.mediafire('https://www.mediafire.com/file/5h71b545s6dfiv2')
 </details>
 <details><summary><b>Racaty</b></summary><br>
 #### Input
-```shell
+```js
 vix.racaty('https://racaty.io/izj0fopl0ih8')
 .then(result => {
   console.log(result)
@@ -138,7 +138,7 @@ vix.racaty('https://racaty.io/izj0fopl0ih8')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -154,7 +154,7 @@ vix.racaty('https://racaty.io/izj0fopl0ih8')
 </details>
 <details><summary><b>Solidfiles</b></summary><br>
 #### Input
-```shell
+```js
 vix.solidfiles('http://solidfiles.com/v/YqgMXLRZ357k3')
 .then(result => {
   console.log(result)
@@ -164,7 +164,7 @@ vix.solidfiles('http://solidfiles.com/v/YqgMXLRZ357k3')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -180,7 +180,7 @@ vix.solidfiles('http://solidfiles.com/v/YqgMXLRZ357k3')
 </details>
 <details><summary><b>Youtube Mp3</b></summary><br>
 #### Input
-```shell
+```js
 vix.ytmp3('https://youtu.be/BXct4eEqbEg')
 .then(result => {
   console.log(result)
@@ -190,7 +190,7 @@ vix.ytmp3('https://youtu.be/BXct4eEqbEg')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -221,7 +221,7 @@ vix.ytmp3('https://youtu.be/BXct4eEqbEg')
 </details>
 <details><summary><b>Youtube Mp4</b></summary><br>
 #### Input
-```shell
+```js
 vix.ytmp4('https://youtu.be/BXct4eEqbEg')
 .then(result => {
   console.log(result)
@@ -231,7 +231,7 @@ vix.ytmp4('https://youtu.be/BXct4eEqbEg')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
@@ -259,10 +259,10 @@ vix.ytmp4('https://youtu.be/BXct4eEqbEg')
   }
 }
 ```
-
+</details>
 <details><summary><b>Zippyshare</b></summary><br>
 #### Input
-```shell
+```js
 vix.zippyshare('https://www94.zippyshare.com/v/PhnBX3dJ/file.html')
 .then(result => {
   console.log(result)
@@ -272,7 +272,7 @@ vix.zippyshare('https://www94.zippyshare.com/v/PhnBX3dJ/file.html')
 });
 ```
 #### Output
-```shell
+```json
 {
   status: true,
   type: 'scrape',
