@@ -275,7 +275,7 @@ vix.ytmp4('https://youtu.be/BXct4eEqbEg')
 ```
 </details>
 
-<details><summary><b>Zippyshare</b></summary><br>
+<details><summary><b>Zippyshare - RIP</b></summary><br>
 
 #### input
 ```js
